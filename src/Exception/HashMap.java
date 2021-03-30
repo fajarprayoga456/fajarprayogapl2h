@@ -1,6 +1,6 @@
 package Exception;
 
-public class HashMap {
+public class HashMap<S, I extends Number> {
     public static void main(String[] args) {
         java.util.HashMap<String, String> m = new java.util.HashMap<String, String>();
         m.put("A", "First");
