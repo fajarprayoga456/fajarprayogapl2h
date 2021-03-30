@@ -6,7 +6,6 @@ public class ReverseaString {
         String text = scanner.nextLine();
         char[] arr = text.toCharArray();
 
-        //your code goes here
         String rev = "";
         for(char i:arr){
             rev = i + rev;
